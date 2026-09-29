@@ -88,6 +88,58 @@ d. the print statement should contain counter not counter + 1
 #####
 
 
+5.19
+a. true
+b. false
+c. true
+d. true
+e. true
+f. false
+g. true
+
+
+5.23
+a. !(x < 5 || y > 7)
+b. !(a == b && g != 5)
+c. !(x <= 8) || !(y > 4)
+d. !(i > 4) && !(j <= 6)
+
+
+5.26
+You can use the if selection statement.
+if (count < 5)
+System.out.println(count);
+
+
+
+5.27
+****
+****
+****
+
+****
+****
+****
+
+****
+****
+****
+
+****
+****
+****
+
+****
+****
+****
+
+
+
+5.28
+Instead of the continue statement, I can use the if selection statement
+
+if (count != 5)
+System.out.println(count);
 
 
 
