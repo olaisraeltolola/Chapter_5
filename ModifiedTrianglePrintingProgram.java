@@ -8,8 +8,17 @@ for (int row = 1; row <= 10; row++){
 
 System.out.print("*");
 
+} 
+
+	for (int space = 1; space <= 11 - row; space++){
+
+System.out.print(' ');
 }
-System.out.print("\t" + "\t");
+
+
+System.out.print("\t");
+
+
 
 
 	for (int column = 1; column <= 11 - row; column++){
@@ -17,7 +26,17 @@ System.out.print("\t" + "\t");
 System.out.print("*");
 
 }
-System.out.print("\t" + "\t");
+
+	for (int space = 10; space > 11 - row; space--){
+
+System.out.print(' ');
+}
+
+
+System.out.print("\t");
+
+
+
 
 	for (int space = 10; space > 11 - row; space--){
 
@@ -29,7 +48,11 @@ System.out.print(' ');
 System.out.print("*");
 
 }
-System.out.print("\t" + "\t");
+
+
+System.out.print("\t");
+
+
 
 
 	for (int space = 9; space >= row; space--){
