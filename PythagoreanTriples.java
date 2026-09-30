@@ -1,7 +1,7 @@
 public class PythagoreanTriples{
 public static void main(String[] args){
 
-System.out.println("sideOne\tsideTwo\tsideThree");
+System.out.println("side one\tside two\tside three");
 
 for (int sideOne = 1; sideOne <= 500; sideOne++){
 
