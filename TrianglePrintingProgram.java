@@ -49,7 +49,7 @@ System.out.println();
 
 for (row = 1; row <= 10; row++){
 
-for (int space = 10; space >= row; space--)
+for (int space = 9; space >= row; space--)
 System.out.print(' ');
 
 	for (int column = 1; column <= row; column++){
